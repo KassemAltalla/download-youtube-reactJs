@@ -1,0 +1,117 @@
+.inputContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  padding-right: 100px; /* مساحة للزر */
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+button {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  padding: 10px 20px;
+  border: 4px solid #fff;
+  border-radius: 10px;
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.icon {
+  margin-right: 5px;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+h3 {
+  font-weight: 100;
+}
+.youtube {
+  width: 100px;
+  margin: auto;
+}
+.youtubeVideo {
+  margin-block: 30px;
+}
+.savebtn {
+  text-decoration: none;
+  color: #fff;
+  background-color: red;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.section1,
+.section2,
+.section3 {
+  background-color: #ffffff;
+  min-height: 50vh;
+  padding: 5%;
+}
+.section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section1 .title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  font-size: 35px;
+  color: #8a8a8a;
+}
+.section1 .title span {
+  background-color: red;
+  border-radius: 30px;
+  padding: 5px 30px;
+  color: #fff;
+}
+.section1 .title2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #000;
+  font-size: 50px;
+  font-weight: 700;
+}
+.section1 p {
+  width: 400px;
+  color: #a6a6a6;
+}
+.section2 {
+  display: flex;
+}
+.section2 .title,
+.section3 .title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 35px;
+  color: #8a8a8a;
+}
+.section2 .title2,
+.section3 .title2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #000;
+  font-size: 50px;
+  font-weight: 700;
+}
+.section2 .title2 span,
+.section3 .title2 span {
+  color: red;
+}
+.section2 .text {
+  text-align: start;
+}

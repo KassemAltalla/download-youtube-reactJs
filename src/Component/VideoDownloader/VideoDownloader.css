@@ -1,0 +1,18 @@
+input {
+  background-color: aliceblue;
+  height: 40px;
+  width: 200px;
+  border-radius: 20px;
+}
+input::placeholder {
+  content: "enter link video";
+  color: gray;
+}
+input:focus {
+  border: 2px solid #f33535;
+}
+button {
+  background-color: #f33535;
+  padding: 12px;
+  border-radius: 20px;
+}
